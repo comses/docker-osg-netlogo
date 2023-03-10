@@ -2,7 +2,7 @@ FROM opensciencegrid/osgvo-ubuntu-20.04
 LABEL maintainer="Allen Lee <allen.lee@asu.edu>"
 
 ARG NETLOGO_HOME=/opt/netlogo
-ARG NETLOGO_VERSION=6.2.2
+ARG NETLOGO_VERSION=6.3.0
 
 ENV LC_ALL=C.UTF-8 \
     LANG=C.UTF-8 \
